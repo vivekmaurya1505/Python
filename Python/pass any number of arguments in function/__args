@@ -1,0 +1,9 @@
+# python *args
+
+def add(*num):
+    sum = 0
+    for n in num:
+        sum = sum + n
+    print("sum:", sum)
+add(1,2)
+add(3,4,5)
