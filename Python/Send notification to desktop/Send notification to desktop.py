@@ -11,7 +11,8 @@ toaster.show_toast("Notification!","Alert! Yes",threaded = True,icon_path = None
 
 #To check any notifiacrtion are active
 #use "toaster.notification_active()"
-
+'''
 import time
 while toaster.notification_active():
     time.sleep(0.1)
+'''
